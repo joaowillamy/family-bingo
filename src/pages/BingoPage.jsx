@@ -1,18 +1,21 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 import completPeople from "../data/completPeople";
 import { getMessage } from "../data/people";
 import { Empty } from "../components/Empty";
-import { useReactPath } from "../useReactPath";
+
+function useQuery() {
+  return new URLSearchParams(useLocation().search);
+}
 
 function BingoPage() {
-  const path = useReactPath()
-  const cleanPath = path.split('/')[2]
-  const person = completPeople[cleanPath]
+  const code = useQuery().get('code');
+  const person = completPeople[code]
   const message = person && getMessage(person);
   const BINGO = 'B I N G O'.split(" ")
 
-  if (!cleanPath || !person) {
+  if (!code || !person) {
     return <Empty />
   }
 
