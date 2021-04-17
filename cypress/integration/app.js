@@ -10,7 +10,7 @@ describe('app', () => {
     });
 
     it('should have url code', () => {
-        cy.visit('/family-bingo/maria')
+        cy.visit('/family-bingo#/?code=maria')
         cy.findByText(/maria/i).should('exist')
     });
 });
