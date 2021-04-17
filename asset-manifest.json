@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/family-bingo/static/js/main.0652ac33.chunk.js",
-    "main.js.map": "/family-bingo/static/js/main.0652ac33.chunk.js.map",
-    "runtime-main.js": "/family-bingo/static/js/runtime-main.40083884.js",
-    "runtime-main.js.map": "/family-bingo/static/js/runtime-main.40083884.js.map",
-    "static/js/2.1c106c66.chunk.js": "/family-bingo/static/js/2.1c106c66.chunk.js",
-    "static/js/2.1c106c66.chunk.js.map": "/family-bingo/static/js/2.1c106c66.chunk.js.map",
-    "static/js/3.d6bb6f74.chunk.js": "/family-bingo/static/js/3.d6bb6f74.chunk.js",
-    "static/js/3.d6bb6f74.chunk.js.map": "/family-bingo/static/js/3.d6bb6f74.chunk.js.map",
+    "main.js": "/family-bingo/static/js/main.9bc2e6a5.chunk.js",
+    "main.js.map": "/family-bingo/static/js/main.9bc2e6a5.chunk.js.map",
+    "runtime-main.js": "/family-bingo/static/js/runtime-main.3e0e32d3.js",
+    "runtime-main.js.map": "/family-bingo/static/js/runtime-main.3e0e32d3.js.map",
+    "static/js/2.45ba6307.chunk.js": "/family-bingo/static/js/2.45ba6307.chunk.js",
+    "static/js/2.45ba6307.chunk.js.map": "/family-bingo/static/js/2.45ba6307.chunk.js.map",
+    "static/js/3.c38ca5a0.chunk.js": "/family-bingo/static/js/3.c38ca5a0.chunk.js",
+    "static/js/3.c38ca5a0.chunk.js.map": "/family-bingo/static/js/3.c38ca5a0.chunk.js.map",
     "index.html": "/family-bingo/index.html",
-    "static/js/2.1c106c66.chunk.js.LICENSE.txt": "/family-bingo/static/js/2.1c106c66.chunk.js.LICENSE.txt"
+    "static/js/2.45ba6307.chunk.js.LICENSE.txt": "/family-bingo/static/js/2.45ba6307.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.40083884.js",
-    "static/js/2.1c106c66.chunk.js",
-    "static/js/main.0652ac33.chunk.js"
+    "static/js/runtime-main.3e0e32d3.js",
+    "static/js/2.45ba6307.chunk.js",
+    "static/js/main.9bc2e6a5.chunk.js"
   ]
 }
