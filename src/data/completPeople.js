@@ -1,0 +1,1 @@
+module.exports = {"maria":{"name":"Maria Mãe","familyType":"mae","bingo":[[1,2],[7,8],[11,14],[18,19],[21,25]]},"margarida":{"name":"Margarida Mãe","familyType":"tia","bingo":[[2,3],[7,10],[11,15],[17,18],[23,24]]},"Miguel":{"name":"Margarida Mãe","familyType":"tia","bingo":[[4,5],[9,10],[13,15],[16,20],[23,25]]}}
