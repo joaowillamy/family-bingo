@@ -2,6 +2,7 @@
   "name": "bingo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://joaowillamy.github.io/family-bingo",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
@@ -17,7 +18,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cy:run": "cypress run",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
     "@babel/preset-react": "^7.13.13",
     "@testing-library/cypress": "^7.0.6",
     "cypress": "^7.1.0",
-    "eslint-plugin-cypress": "^2.11.2"
+    "eslint-plugin-cypress": "^2.11.2",
+    "gh-pages": "^3.1.0"
   }
 }
