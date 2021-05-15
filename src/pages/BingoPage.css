@@ -1,0 +1,119 @@
+.bingo-page {
+    background-color: #e7e7e7;
+    display: flex;
+    height: 100%;
+    min-height: 100vh;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.bingo-page__header {
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #bebebe;
+    padding: 30px;
+    max-width: 70%;
+}
+
+.bingo-page__title {
+    font-size: 1.5em;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 20px;
+}
+
+.bingo-page__title strong {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.bingo-page__title p {
+    display: block;
+}
+
+.bingo-page__container {
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #bebebe;  
+    padding: 30px;
+    width: 70%;
+    max-width: 70%;
+}
+
+.bingo-page__container-header strong{
+    margin:  30px;
+}
+
+.bingo-page__container-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bingo-page__container-body p {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bingo-page__container-body span {
+    align-items: center;
+    border: solid 1px #ccc;
+    display: flex;
+    font-size: 3rem;
+    height: 2em;
+    justify-content: center;
+    width: 2em;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.bingo-page__container-body strong {
+    align-items: center;
+    display: flex;
+    font-size: 3rem;
+    font-weight: 900;
+    height: 2em;
+    justify-content: center;
+    width: 2em;
+}
+
+.item {
+    transition: .3s;
+}
+
+.item:hover {
+    background-color: #ccc;
+}
+
+.selected {
+    transition: .3s;
+    background-color: green;
+    color: white;
+}
+
+@media (max-width: 870px) {
+    .bingo-page__container {
+        margin-bottom: 20px;
+    }
+
+    .bingo-page__container-body {
+        flex-direction: column;
+    }
+
+    .bingo-page__container-body p {
+        flex-direction: row;
+    }
+
+    .bingo-page__container-body span {
+        width: 1.5em;
+        height: 1.5em;
+        margin-bottom: 0;
+        margin-right: 5px;
+    }
+
+    .bingo-page__container-body strong {
+        width: 1.5em;
+        height: 1.5em;
+    }
+}
