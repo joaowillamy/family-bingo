@@ -17,7 +17,7 @@ export function getMessage() {
 export const people = {
     "margarida": {
         name:"Margarida",
-        familyType: type.uncle,
+        familyType: type.aunt,
         bingo: [],
     },
     "ines": {
