@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/family-bingo/static/css/main.9b700b99.chunk.css",
-    "main.js": "/family-bingo/static/js/main.10b3187f.chunk.js",
-    "main.js.map": "/family-bingo/static/js/main.10b3187f.chunk.js.map",
+    "main.css": "/family-bingo/static/css/main.48424ab2.chunk.css",
+    "main.js": "/family-bingo/static/js/main.903b9c75.chunk.js",
+    "main.js.map": "/family-bingo/static/js/main.903b9c75.chunk.js.map",
     "runtime-main.js": "/family-bingo/static/js/runtime-main.edfbf4f5.js",
     "runtime-main.js.map": "/family-bingo/static/js/runtime-main.edfbf4f5.js.map",
     "static/js/2.e6e7537f.chunk.js": "/family-bingo/static/js/2.e6e7537f.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.28ab9e10.chunk.js": "/family-bingo/static/js/3.28ab9e10.chunk.js",
     "static/js/3.28ab9e10.chunk.js.map": "/family-bingo/static/js/3.28ab9e10.chunk.js.map",
     "index.html": "/family-bingo/index.html",
-    "static/css/main.9b700b99.chunk.css.map": "/family-bingo/static/css/main.9b700b99.chunk.css.map",
+    "static/css/main.48424ab2.chunk.css.map": "/family-bingo/static/css/main.48424ab2.chunk.css.map",
     "static/js/2.e6e7537f.chunk.js.LICENSE.txt": "/family-bingo/static/js/2.e6e7537f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.edfbf4f5.js",
     "static/js/2.e6e7537f.chunk.js",
-    "static/css/main.9b700b99.chunk.css",
-    "static/js/main.10b3187f.chunk.js"
+    "static/css/main.48424ab2.chunk.css",
+    "static/js/main.903b9c75.chunk.js"
   ]
 }
