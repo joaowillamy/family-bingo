@@ -54,6 +54,7 @@ function BingoPage() {
           })}
         </article>
       </section>
+      <strong className="bingo-page__footer">Feito com 💕 por: João & Mica</strong>
     </div>
   );
 }
