@@ -370,6 +370,11 @@ let joaolist ={
         familyType: type.friendF,
         bingo: [],
     },
+    "antonia": {
+        name:"Antonia",
+        familyType: type.aunt,
+        bingo: [],
+    },
 }
 
 Object.keys(joaolist).map(el => {

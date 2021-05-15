@@ -370,4 +370,9 @@ export const people = {
         familyType: type.friendF,
         bingo: [],
     },
+    "antonia": {
+        name:"Antonia",
+        familyType: type.aunt,
+        bingo: [],
+    },
 }
