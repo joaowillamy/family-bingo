@@ -1,16 +1,17 @@
 const type = {
     uncle: 'meu querido tio',
     aunt: 'minha querida tia',
-    cousinF: 'meu querido primo',
-    cousinM: 'minha querida prima',
+    cousinF: 'minha querida prima',
+    cousinM: 'meu querido primo',
     mother: "minha querida mãe",
     father: "meu querido pai",
     friendF: 'minha querida amiga',
-    friendM: 'meu querido amigo'
+    friendM: 'meu querido amigo',
+    grama: 'minha querida vó',
 }
 
 export function getMessage() {
-    return ''
+    return 'Estão prontos para ganhar um jantar a sua escolha?'
 }
 
 export const people = {
@@ -200,173 +201,173 @@ export const people = {
         bingo: [],
     },
     "janaina": {
-        name:"miguel",
+        name:"Janaína",
+        familyType: type.cousinF,
+        bingo: [],
+    },
+    "rosinha": {
+        name:"rosinha",
         familyType: type.aunt,
         bingo: [],
     },
-    "tia rosinha": {
-        name:"miguel",
-        familyType: '',
-        bingo: [],
-    },
     "jairo": {
-        name:"miguel",
-        familyType: '',
+        name:"Jairo",
+        familyType: type.cousinM,
         bingo: [],
     },
-    "tia hosana": {
-        name:"miguel",
-        familyType: '',
+    "hosana": {
+        name:"Hosana",
+        familyType: type.aunt,
         bingo: [],
     },
     "carol": {
-        name:"miguel",
-        familyType: '',
+        name:"Carol",
+        familyType: type.cousinF,
         bingo: [],
     },
     "gerson": {
-        name:"miguel",
-        familyType: '',
+        name:"Gerson",
+        familyType: type.cousinM,
         bingo: [],
     },
     "sinelandia": {
-        name:"miguel",
-        familyType: '',
+        name:"Sinelandia",
+        familyType: type.aunt,
         bingo: [],
     },
-    "joao paulo": {
-        name:"miguel",
-        familyType: '',
+    "joaoPaulo": {
+        name:"João Paulo",
+        familyType: type.cousinM,
         bingo: [],
     },
     "nivea": {
-        name:"miguel",
-        familyType: '',
+        name:"Nivea",
+        familyType: type.cousinF,
         bingo: [],
     },
     "junior": {
-        name:"miguel",
-        familyType: '',
+        name:"Júnior",
+        familyType: type.cousinM,
         bingo: [],
     },
     "sonia": {
-        name:"miguel",
-        familyType: '',
+        name:"Sonia",
+        familyType: type.aunt,
         bingo: [],
     },
     "camila": {
-        name:"miguel",
-        familyType: '',
+        name:"Camila",
+        familyType: type.cousinF,
         bingo: [],
     },
     "rosa": {
-        name:"miguel",
-        familyType: '',
+        name:"Rosa",
+        familyType: type.aunt,
         bingo: [],
     },
-    "antonia maria": {
-        name:"miguel",
-        familyType: '',
+    "antoniaMaria": {
+        name:"Antonia Maria",
+        familyType: type.aunt,
         bingo: [],
     },
     "daniele": {
-        name:"miguel",
-        familyType: '',
+        name:"Daniele",
+        familyType: type.cousinF,
         bingo: [],
     },
     "leda": {
-        name:"miguel",
-        familyType: '',
+        name:"Leda",
+        familyType: type.grama,
         bingo: [],
     },
-    "tia toinha": {
-        name:"miguel",
-        familyType: '',
+    "toinha": {
+        name:"Toinha",
+        familyType: type.aunt,
         bingo: [],
     },
-    "tia kelma": {
-        name:"miguel",
-        familyType: '',
+    "kelma": {
+        name:"Kelma",
+        familyType: type.aunt,
         bingo: [],
     },
     "goreti": {
-        name:"miguel",
-        familyType: '',
+        name:"Goreti",
+        familyType: type.friendF,
         bingo: [],
     },
     "Edmea": {
-        name:"miguel",
-        familyType: '',
+        name:"Edmea",
+        familyType: type.grama,
         bingo: [],
     },
     "paula": {
-        name:"miguel",
-        familyType: '',
+        name:"Paula",
+        familyType: type.aunt,
         bingo: [],
     },
     "monica": {
-        name:"miguel",
-        familyType: '',
+        name:"Monica",
+        familyType: type.aunt,
         bingo: [],
     },
     "fablicia": {
-        name:"miguel",
-        familyType: '',
+        name:"Fablicia",
+        familyType: type.cousinF,
         bingo: [],
     },
     "fabiana": {
-        name:"miguel",
-        familyType: '',
+        name:"Fabiana",
+        familyType: type.cousinF,
         bingo: [],
     },
     "vivian": {
-        name:"miguel",
-        familyType: '',
+        name:"Vivian",
+        familyType: type.friendF,
         bingo: [],
     },
     "juliara": {
-        name:"miguel",
-        familyType: '',
+        name:"Juliara",
+        familyType: type.friendF,
         bingo: [],
     },
     "lucia": {
-        name:"miguel",
-        familyType: '',
+        name:"Lucia",
+        familyType: type.friendF,
         bingo: [],
     },
-    "Zelinha": {
-        name:"miguel",
-        familyType: '',
+    "Zelhinha": {
+        name:"Zelhinha",
+        familyType: type.friendF,
         bingo: [],
     },
     "mase": {
-        name:"miguel",
-        familyType: '',
+        name:"Mase",
+        familyType: type.aunt,
         bingo: [],
     },
     "moesio": {
-        name:"miguel",
-        familyType: '',
+        name:"Moesio",
+        familyType: type.uncle,
         bingo: [],
     },
     "catia": {
-        name:"miguel",
-        familyType: '',
+        name:"Cátia",
+        familyType: type.mother,
         bingo: [],
     },
     "marcos": {
-        name:"miguel",
-        familyType: '',
+        name:"Marcos",
+        familyType: type.father,
         bingo: [],
     },
     "patricia": {
-        name:"miguel",
-        familyType: '',
+        name:"Patrícia",
+        familyType: type.friendF,
         bingo: [],
     },
     "pamela": {
-        name:"miguel",
-        familyType: '',
+        name:"Pamela",
+        familyType: type.friendF,
         bingo: [],
     },
 }
